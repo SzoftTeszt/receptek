@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;  
+    box-sizing: border-box;  
+}
+body{
+    background: plum;
+}
+.doboz{
+    /* background: green; */
+    width:49.99998vw;
+    padding: 50px;
+    border:10px solid red;
+    float:left;
+    /* margin:20px; */
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .lablec{
+    background-color: aqua;
+  }
