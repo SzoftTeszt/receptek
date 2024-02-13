@@ -3,6 +3,7 @@
     padding:0;
     margin:0;  
     box-sizing: border-box;  
+    list-style: none;
 }
 body{
   background: url('./pics/bg-body.jpg') fixed;
@@ -29,26 +30,71 @@ body{
     width:25%;
     float:left;
 }
-.content{
+.main{
+   width:75%;
+   float:left;
+}
+
+ul{
+    padding:30px;
+}
+ul li{
    
 }
 
-
-
+ul a {
+    color:white;
+    text-decoration: none;
+    padding: 15px 0;
+    display: block;
+}
+ul a:hover{
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+}
+ul li{
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.8);
+}
 
 .doboz{
     /* background: green; */
     width:49.99998vw;
     padding: 50px;
     border:10px solid red;
-    float:left;
+    float:left
     /* margin:20px; */
 }
-.clearfix::after {
+.footer::after, .content::after {
     content: "";
     clear: both;
-    display: table;
+    display: table
   }
   .lablec{
     background-color: aqua;
   }
+
+.content img{
+    float:left;
+    padding: 15px 10px 0px 0
+}
+.content p{
+    padding: 10px 15px 10px 0;
+    line-height: 2;
+}
+.footer{
+    padding: 20px;
+    
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.footer a{
+    text-decoration: none;
+    color:black;
+}
+.footer a:hover{
+    color:white;
+}
